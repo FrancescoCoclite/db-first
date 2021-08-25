@@ -1,0 +1,16 @@
+MACCHINE
+
+Macchine_id BIGINT  - Primary_Key  AUTO_INCREMENT
+Casa_produttrice VARCHAR(20) NOT_NULL
+Modello VARCHAR(20) NOT_NULL
+Prezzo UNSIGNED INT NOT_NULL
+Cilindrata UNSIGNED INT 
+Anno YEAR NOT_NULL
+Km UNSIGNED INT NOT_NULL
+Colore VARCHAR(30) NOT_NULL
+Numero_immatricolazione UNSIGNED INT UNIQUE
+Alimentazione VARCHAR(15) NOT_NULL
+Targa VARCHAR(7) UNIQUE 
+Portiere TINYINT
+Descrizione TEXT 
+
